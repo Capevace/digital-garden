@@ -1,0 +1,49 @@
+@media print {
+	/* Fix bold "block" by removing gradient */
+	.cm-strong,
+	strong {
+		-webkit-background-clip: none;
+		-webkit-text-fill-color: initial;
+		color: #5c81d1;
+		background: none !important;
+	}
+
+	/* Darken text for better readability */
+	.cm-em,
+	em {
+		color: #795cad !important;
+	}
+
+	.markdown-preview-view hr::after {
+		background-color: #fff;
+	}
+
+	/* Fix transparent background of tags */
+	a.tag {
+		background: #5c81d1;
+		color: #fff;
+	}
+
+	/* Fix heading underlines being full width and black */
+	.markdown-preview-view h2,
+	.markdown-preview-view h3,
+	.markdown-preview-view h4,
+	.markdown-preview-view h5,
+	.markdown-preview-view h6 {
+		border-image-source: linear-gradient(
+			to right,
+			var(--text-sub-accent),
+			transparent,
+			transparent,
+			transparent
+		) !important;
+	}
+
+	.internal-link,
+	.external-link {
+		text-shadow: none !important;
+		-webkit-text-fill-color: initial !important;
+		color: initial !important;
+		background: none !important;
+	}
+}

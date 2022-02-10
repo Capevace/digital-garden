@@ -1,0 +1,14 @@
+{
+  "baseFontSize": 20,
+  "cssTheme": "California Coast",
+  "translucency": false,
+  "enabledCssSnippets": [
+    "fix-print",
+    "fix-obsidianite-print",
+    "fix-print-page-breaks",
+    "fix-mathjax-left-align",
+    "clean-embeds"
+  ],
+  "theme": "moonstone",
+  "baseFontSizeAction": false
+}

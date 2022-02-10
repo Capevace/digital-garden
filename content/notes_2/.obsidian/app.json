@@ -1,0 +1,20 @@
+{
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "attachmentFolderPath": "Attachments",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "legacyEditor": false,
+  "livePreview": true,
+  "readableLineLength": false,
+  "foldHeading": false,
+  "foldIndent": false,
+  "showLineNumber": false,
+  "showFrontmatter": false,
+  "strictLineBreaks": false,
+  "defaultViewMode": "preview"
+}
