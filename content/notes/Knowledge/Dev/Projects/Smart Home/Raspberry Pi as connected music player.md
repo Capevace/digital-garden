@@ -1,5 +1,7 @@
-- Spotify
-- Youtube
-- Playback modes
-	- Single queue (mixed Spotify, Youtube if possible)
-- 
+# Huhu
+
+-   Spotify
+-   Youtube
+-   Playback modes
+    -   Single queue (mixed Spotify, Youtube if possible)
+-
